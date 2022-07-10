@@ -1,0 +1,366 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+body
+{
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    margin: auto;
+}
+#main
+{
+    height: 100vh;
+    width: 90%;
+    alignment: center;
+    background-size: cover;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    margin-left: 93px;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 80px;
+}
+.logo
+{
+    color: blue;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.logo span
+{
+    color: dodgerblue;
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-right: 40px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover
+{
+    color: dodgerblue;
+    transition: .4s;
+}
+.logo2
+{
+    width: 130px;
+    height: 130px;
+    transition: transform .4s;
+}
+.logo2:hover
+{
+    transform: scale(-0.4%);
+}
+#content
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+#content h2
+{
+    color: white;
+    margin: 20px 0 20px;
+    font-size:45px;
+
+}
+#content h3
+{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#content h4
+{
+    color: red;
+}
+.form form
+{
+    width: 380px;
+    max-width: 100px;
+    position: relative;
+}
+.form form input:first-child
+{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 200px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+    height: 30px;
+}
+.form form input:last-child
+{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 5px dodgerblue, 0 0 15px darkslateblue;
+    font-size: 15px;
+    margin-left: 207px;
+    top: 10px;
+}
+#content h2 span
+{
+    color: red;
+}
+.aboutpic
+{
+    height: 700px;
+    width: 500px;
+    margin-left: -120px;
+    margin-top: 100px;
+}
+#aboutme
+{
+    height: 850px;
+    width: 90%;
+    padding: 100px 0;
+    background-color: #29539b;
+    background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+    background-size: cover;
+    alignment: center;
+    margin-left: 93px;
+}
+.abt-txt
+{
+    width: 750px;
+    margin-left: 550px;
+}
+.yes
+{
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.abt-txt h2
+{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.abt-txt h5
+{
+    color: red;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+.abt-txt p
+{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+button
+{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .4s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: transparent;
+    border: 2px solid blue;
+}
+#hobbies
+{
+    background-color: #182b3a;
+    background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+    width: 90%;
+    margin-left: 93px;
+    padding: 100px 0;
+    height: 850px;
+}
+.title h2
+{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card
+{
+    height: 365px;
+    width: 335px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i
+{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: dodgerblue;
+}
+h5
+{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.par p
+{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button
+{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    transition: .4s;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.card .button:hover
+{
+    background-color: transparent;
+    border: 2px solid blue;
+}
+#contact
+{
+    width: 90%;
+    height: 500px;
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 93px;
+}
+#contact p
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#contact i
+{
+    font-size: 50px;
+    text-align: center;
+    color: dodgerblue;
+}
+#contact a
+{
+    text-decoration: none;
+    padding: 10px;
+}
+.title2 h2
+{
+    color: white;
+    font-size: 40px;
+    width: 1130px;
+    margin-top: -90px;
+    margin-left: -100px;
+    display: block;
+    padding-bottom: 60px;
+}
+.links
+{
+    margin-left: -1110px;
+}
+.links a
+{
+    text-decoration: none;
+}
+.links a:hover
+{
+    transform: scale(1.3);
+    transition: .3s;
+}
+footer
+{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    margin-left: 93px;
+    margin-top: -19px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fce055;
+    background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+}
+footer p:nth-child(1)
+{
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+}
+footer p:nth-child(2)
+{
+    color: white;
+    font-size: 20px;
+}
+.topbutton
+{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #FFD700;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: darkblue;
+}
+html
+{
+    scroll-behavior: smooth;
+}
